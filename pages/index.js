@@ -20,7 +20,7 @@ return {
 
 export default function Home({ allPostData }) {
   return (
-    <Layout>
+    <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
