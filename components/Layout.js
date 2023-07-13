@@ -30,7 +30,6 @@ function Layout({ children, home }) {
                 <h1 className={utilStyles.heading2Xl}>{name}</h1></>
             )}
             
-            <Link href="/posts/firstPost" className={utilStyles.heading2Xl}>Next.</Link>
         </header>
         <main>{children}</main>
         {!home && (
